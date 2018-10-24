@@ -1,0 +1,38 @@
+.page {
+  font-family: "Proxima Nova", Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+}
+
+.page__main-container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.page__inner-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page__outer-wrapper-1 {
+  min-height: 981px;
+  background: url("../img/bg-wrapper-01.jpg") no-repeat top center / cover;
+}
+
+.page__outer-wrapper-3 {
+  background-color: #f3ebf5;
+}
+
+.page__program {
+  @extend .container;
+}
+
+.page__intensive {
+  @extend .container;
+}
+
+@media (min-width: 1921px) {
+  .page__main-container {
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 5px 0px rgba(221,221,221,0);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 5px 0px rgba(221,221,221,0);
+  }
+}

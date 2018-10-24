@@ -1,0 +1,58 @@
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 45px 60px;
+  width: 100%;
+  max-width: 434px;
+  background: rgba(44,76,101,.4);
+}
+
+.form__header {
+  margin: 0 0 10px;
+  font-size: 41px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+
+  & span {
+    display: block;
+    font-size: 22px;
+    text-transform: none;
+  }
+}
+
+.form__field {
+  height: 60px;
+  margin: 0 0 15px;
+  padding: 16px 22px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #839fb1;
+  vertical-align: top;
+  outline: none;
+  border: 0;
+  background: #ebeef0;
+
+}
+
+.form__checkbox {
+  margin-bottom: 24px;
+}
+
+.form__submit {
+  @extend .button;
+  margin-bottom: 15px;
+}
+
+.form__info {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}

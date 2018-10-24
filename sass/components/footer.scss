@@ -1,0 +1,21 @@
+.footer {
+  background-color: #542749;
+}
+
+.footer__container {
+  @extend .container;
+  display: flex;
+  min-height: 81px;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.footer__copyright {
+  margin: 0;
+}
+
+.footer__policy {
+  color: white;
+}

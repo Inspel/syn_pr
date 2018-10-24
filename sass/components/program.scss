@@ -1,0 +1,144 @@
+.program__header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  padding: 20px 60px 20px 50px;
+  min-height: 285px;
+  height: 284px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 50px;
+  border: 1px solid #d2cad5;
+  border-top: none;
+  color: $color-main;
+  text-transform: none;
+
+  &:after {
+    box-sizing: border-box;
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    width: 33.3433333%;
+    height: 100%;
+    background-color: #fbf9fc;
+    border-left: 1px solid #d2cad5;
+  }
+
+  &:before {
+    position: absolute;
+    content: '';
+    width: 371px;
+    height: 9999px;
+    bottom: -1px;
+    left: 100%;
+    border-bottom: 1px solid #d2cad5;
+    background: none;
+    z-index: -1;
+  }
+}
+
+.program__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  border-right: 1px solid #d2cad5;
+}
+
+.program__element {
+  position: relative;
+  min-height: 270px;
+  width: 33.333333%;
+  border-left: 1px solid #d2cad5;
+  border-bottom: 1px solid #d2cad5;
+  border-top: 0;
+  padding: 40px 55px 40px 50px;
+
+  &--1 {
+    background-color: #fbf9fc;
+
+    &:before {
+      position: absolute;
+      content: '';
+      width: 371px;
+      height: 9999px;
+      bottom: -1px;
+      right: 100%;
+      border-bottom: 1px solid #d2cad5;
+      background: rgba(234,223,238,.07);
+      z-index: -1;
+    }
+  }
+
+  &--2 {
+    background-color: #f5f0f7;
+  }
+
+  &--5 {
+    background-color: #faf7fb;
+  }
+
+  &--6 {
+    background-color: #fbf9fc;
+  }
+
+  & p {
+    margin: 0;
+    font-size: 24px;
+    line-height: 32px;
+    color: $color-main;
+    font-weight: 400;
+  }
+
+  & h3 {
+    margin: 0;
+    display: block;
+    color: $color-second;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: none;
+  }
+}
+
+.program__footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 130px;
+  height: 129px;
+  padding: 20px 60px 20px 50px;
+  border-left: 1px solid #d2cad5;
+  border-right: 1px solid #d2cad5;
+
+  &:after {
+    box-sizing: border-box;
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    width: 33.3433333%;
+    height: 100%;
+    border-left: 1px solid #d2cad5;
+  }
+}
+
+.program__button {
+  @extend .button;
+  margin: 0;
+  margin-right: 40px;
+  height: 64px;
+  text-decoration: none;
+}
+
+.program__footer-info {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  color: $color-second;
+  text-transform: uppercase;
+  vertical-align: top;
+}

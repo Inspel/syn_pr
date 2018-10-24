@@ -1,0 +1,39 @@
+.checkbox {
+  max-width: 302px;
+  text-align: left;
+}
+
+.checkbox__label {
+  position: relative;
+  display: block;
+  margin-left: 31px;
+  padding-left: 42px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  vertical-align: top;
+  cursor: pointer;
+
+  &:before {
+    top: 0;
+    left: 0;
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: url('../img/css_sprites.png') -155px -155px no-repeat;
+  }
+
+  .checkbox input:checked + &:after {
+    left: 9px;
+    bottom: 8px;
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 25px;
+    border-bottom: 4px solid $color-second;
+    border-right: 4px solid $color-second;
+    transform: rotate(45deg);
+  }
+}

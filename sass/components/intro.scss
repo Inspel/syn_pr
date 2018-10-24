@@ -1,0 +1,25 @@
+.intro__header {
+  color: $color-main;
+  font-size: 109px;
+  font-weight: 800;
+  line-height: 93px;
+  text-transform: uppercase;
+  margin: 0;
+
+  & span {
+    display: block;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 4px;
+  }
+}
+
+.intro__video-link {
+  width: 118px;
+  height: 118px;
+  margin: 30px 70px;
+  display: inline-block;
+  cursor: pointer;
+  background: url("../img/video-link.png") no-repeat 0 0;
+}
