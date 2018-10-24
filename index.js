@@ -1,1 +1,1 @@
-console.log("Привет, Мир!");
+import "../synergy_pr/sass/style.scss"
