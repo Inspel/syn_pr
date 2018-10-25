@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -18,12 +18,11 @@
                     <img src="img/header-logo.png" alt="Synergy Lectorium">
                 </div>
                 <div class="header__contact">
-                    <a class="header__link header__link--phone" href="tel:88001001475">8-800-100-17-46</a>
-                    <a class="header__link" href="mailto:Lectorium@synergy.ru">Lectorium@synergy.ru</a>
-                    <a class="header__link header__link--address" data-fancybox
+                    <a class="header__link header__link--phone" aria-label="Телефон 8-800-100-14-75" href="tel:88001001475">8-800-100-17-46</a>
+                    <a class="header__link" aria-label="Адрес электронной почты Lectorium@synergy.ru" href="mailto:Lectorium@synergy.ru">Lectorium@synergy.ru</a>
+                    <a class="header__link header__link--address" aria-label="Адрес Москва, Измайловский Вал, дом 2, корпус 1, метро Семеновская" data-fancybox
                        data-options="{&quot;iframe&quot; : {&quot;css&quot; : {&quot;width&quot; : &quot;80%&quot;, &quot;height&quot; : &quot;80%&quot;}}}"
-                       href="https://www.google.com/maps/search/?api=1&query=Измайловский+Вал+ул.,+2,+Москва,"><span>Семеновская</span>
-                        Москва, Измайловский Вал, дом&nbsp;2, корпус&nbsp;1
+                       href="https://www.google.com/maps/search/?api=1&query=Измайловский+Вал+ул.,+2,+Москва,"><span>Семеновская</span> Москва, Измайловский Вал, дом&nbsp;2, корпус&nbsp;1
                     </a>
                 </div>
             </header>
@@ -44,11 +43,11 @@
                 <div class="page__form-wrapper">
                     <form class="page__form form" action="#" method="post">
                         <h2 class="form__header">Записаться<span>на практическую лекцию</span></h2>
-                        <input type="text" name="name" class="form__field" placeholder="Введите ваше имя" required
+                        <input type="text" name="name" class="form__field" aria-label="Поле ввода имени" placeholder="Введите ваше имя" required
                                aria-required="true">
-                        <input type="tel" name="phone" class="form__field" placeholder="Введите ваш телефон" required
+                        <input type="tel" name="phone" class="form__field" aria-label="Поле ввода телефона" placeholder="Введите ваш телефон" required
                                aria-required="true">
-                        <input type="email" name="email" class="form__field" placeholder="Введите ваш e-mail" required
+                        <input type="email" name="email" class="form__field" aria-label="Поле ввода электронной почты" placeholder="Введите ваш e-mail" required
                                aria-required="true">
                         <div class="form__radiobuttons radiobuttons">
                             <input class="visually-hidden" id="presence1" name="radio1" value="Живое участие" checked type="radio">
@@ -80,36 +79,36 @@
     <div class="page__outer-wrapper-2">
         <section class="page__program program">
             <h2 class="program__header">Что вы&nbsp;узнаете <br>на&nbsp;лекции?</h2>
-            <ul class="program__list">
+            <ol class="program__list">
                 <li class="program__element program__element--1">
-                    <h3>01</h3>
+                    <span>01</span>
                     <p>Что такое Бхригу йога, и&nbsp;как она поможет мне создать жизнь моей мечты?</p>
                 </li>
                 <li class="program__element program__element--2">
-                    <h3>02</h3>
+                    <span>02</span>
                     <p>5&nbsp;техник, вдохновляющие на&nbsp;перемены, от&nbsp;вице-президента Федерации Йоги
                         Индии</p>
                 </li>
                 <li class="program__element">
-                    <h3>03</h3>
+                    <span>03</span>
                     <p>Почему медитация&nbsp;— это&nbsp;путь к&nbsp;вдохновению, путешествие к&nbsp;новым
                         горизонтам</p>
                 </li>
                 <li class="program__element">
-                    <h3>04</h3>
+                    <span>04</span>
                     <p>Методы Бхригу йоги как особый инструмент внутренней работы над&nbsp;телом и&nbsp;умом</p>
                 </li>
                 <li class="program__element program__element--5">
-                    <h3>05</h3>
+                    <span>05</span>
                     <p>Особые методы концентрации и&nbsp;релаксации</p>
                 </li>
                 <li class="program__element program__element--6">
-                    <h3>06</h3>
+                    <span>06</span>
                     <p>Причины <br>потери <br>вдохновения</p>
                 </li>
-            </ul>
+            </ol>
             <div class="program__footer">
-                <a class="program__button" data-fancybox data-src="#popup-form" href="javascript:;">Принять
+                <a class="program__button" data-fancybox data-src="#popup-form" href="javascript:;" role="button">Принять
                     участие</a>
                 <span class="program__footer-info">Количество мест <br>ограничено: 200</span>
             </div>
@@ -142,28 +141,28 @@
                     физического и&nbsp;психического благополучия.</p>
                 <ul class="intensive__dates-list">
                     <li class="intensive__date">
-                        <div class="intensive__day">11</div>
-                        <div class="intensive__month">ноября</div>
-                        <div class="intensive__time">19:00-21:00</div>
+                        <span class="intensive__day">11</span>
+                        <span class="intensive__month">ноября</span>
+                        <span class="intensive__time">19:00-21:00</span>
                     </li>
                     <li class="intensive__date">
-                        <div class="intensive__day">12</div>
-                        <div class="intensive__month">ноября</div>
-                        <div class="intensive__time">11:00-17:30</div>
+                        <span class="intensive__day">12</span>
+                        <span class="intensive__month">ноября</span>
+                        <span class="intensive__time">11:00-17:30</span>
                     </li>
                     <li class="intensive__date">
-                        <div class="intensive__day">13</div>
-                        <div class="intensive__month">ноября</div>
-                        <div class="intensive__time">11:00-17:30</div>
+                        <span class="intensive__day">13</span>
+                        <span class="intensive__month">ноября</span>
+                        <span class="intensive__time">11:00-17:30</span>
                     </li>
                 </ul>
 
                 <div class="intensive__info">
-                    <a class="intensive__button" data-fancybox data-src="#popup-form" href="javascript:;">Узнать больше</a>
+                    <a class="intensive__button" role="button" data-fancybox data-src="#popup-form" href="javascript:;">Узнать больше</a>
                     <p class="intensive__info-text">
                         Вы&nbsp;можете приобрести билет на&nbsp;1, 2&nbsp;или 3&nbsp;дня Запись и&nbsp;дополнительная
                         информация по&nbsp;телефону
-                        <a class="intensive__phone" href="tel:89997683638">+7&nbsp;999&nbsp;768&nbsp;36&nbsp;38</a>
+                        <a class="intensive__phone" aria-label="8-999-768-36-38" href="tel:89997683638">+7&nbsp;999&nbsp;768&nbsp;36&nbsp;38</a>
                     </p>
                 </div>
 
@@ -182,13 +181,13 @@
 
 <div class="hidden">
     <div class="popup" id="popup-form">
-        <form class="popup__form form" action="#" method="post">
-            <h2 class="form__header">Записаться<br><span>на практическую лекцию</span></h2>
-            <input type="text" name="name" class="form__field" placeholder="Введите ваше имя" required
+        <form class="page__form form" action="#" method="post">
+            <h2 class="form__header">Записаться<span>на практическую лекцию</span></h2>
+            <input type="text" name="name" class="form__field" aria-label="Поле ввода имени" placeholder="Введите ваше имя" required
                    aria-required="true">
-            <input type="tel" name="phone" class="form__field" placeholder="Введите ваш телефон" required
+            <input type="tel" name="phone" class="form__field" aria-label="Поле ввода телефона" placeholder="Введите ваш телефон" required
                    aria-required="true">
-            <input type="email" name="email" class="form__field" placeholder="Введите ваш e-mail" required
+            <input type="email" name="email" class="form__field" aria-label="Поле ввода электронной почты" placeholder="Введите ваш e-mail" required
                    aria-required="true">
             <div class="form__radiobuttons radiobuttons">
                 <input class="visually-hidden" id="presence2" name="radio2" value="Живое участие" checked type="radio">
@@ -197,7 +196,7 @@
                 <label class="radiobuttons__label" for="online2">Участие <br>онлайн</label>
             </div>
             <div class="form__checkbox checkbox">
-                <input class="visually-hidden" id="news2" name="news1" value="Получать новости" checked type="checkbox">
+                <input class="visually-hidden" id="news2" name="news2" value="Получать новости" checked type="checkbox">
                 <label class="checkbox__label" for="news2">Согласен получать новости о&nbsp;ЗВЕЗДНЫХ лекциях и&nbsp;курсах</label>
             </div>
             <button class="form__submit" type="submit">Отправить Заявку</button>

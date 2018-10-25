@@ -29,6 +29,10 @@
     color: #839fb1;
   }
 
+  .radiobuttons input:focus + & {
+    outline: rgb(59, 153, 252) auto 5px;
+  }
+
   .radiobuttons input[id^="presence"]:checked + &:after {
     position: absolute;
     top: 10px;

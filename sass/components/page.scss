@@ -4,6 +4,7 @@
 }
 
 .page__main-container {
+  overflow: hidden;
   width: 100%;
   max-width: 1920px;
   min-width: 380px;
@@ -28,6 +29,7 @@
 
 .page__outer-wrapper-1 {
   min-height: 981px;
+  background-color: #c5c2c6;
   background: url("../img/bg-wrapper-01.jpg") no-repeat top center / cover;
 }
 

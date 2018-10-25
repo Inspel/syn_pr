@@ -23,6 +23,10 @@
     width: 30px;
     height: 30px;
     background: url('../img/css_sprites.png') -155px -155px no-repeat;
+
+    .checkbox input:focus + & {
+      outline: rgb(59, 153, 252) auto 5px;
+    }
   }
 
   .checkbox input:checked + &:after {
