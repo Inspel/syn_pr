@@ -1,13 +1,17 @@
 .header {
   display: flex;
-  padding: 30px 0 30px 70px;
+  padding: 30px 0 25px 64px;
   justify-content: space-between;
+}
+
+.header__logotype {
+  padding-top: 13px;
 }
 
 .header__contact {
   display: flex;
-  max-width: 408px;
-  min-height: 80px;
+  max-width: 400px;
+  min-height: 86px;
   align-items: flex-start;
   align-content: space-between;
   flex-wrap: wrap;
@@ -17,10 +21,10 @@
 .header__link {
   position: relative;
   display: block;
-  padding-left: 17px;
+  padding-left: 21px;
   color: $color-second;
-  font-size: 1.1em;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 600;
 
   &:before {
     position: absolute;
@@ -43,7 +47,11 @@
   }
 
   &--address {
+    font-weight: 400;
     text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+
     &:before {
       top: 5px;
       transform: translateY(0);
@@ -54,6 +62,7 @@
     & span {
       display: block;
       padding: 0;
+      font-size: 18px;
       font-weight: 700;
       color: $color-main;
     }

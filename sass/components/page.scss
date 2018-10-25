@@ -4,6 +4,7 @@
 }
 
 .page__main-container {
+  width: 100%;
   max-width: 1920px;
   margin: 0 auto;
 }
@@ -11,6 +12,17 @@
 .page__inner-wrapper {
   display: flex;
   justify-content: space-between;
+}
+
+.page__form-wrapper {
+  padding-top: 15px;
+}
+
+[class^="page__outer-wrapper-"] {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .page__outer-wrapper-1 {
@@ -36,3 +48,11 @@
     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 5px 0px rgba(221,221,221,0);
   }
 }
+
+//@media (max-width: 992px) {
+//  .page__main-container {
+//    max-width: 100%;
+//    width: 100%;
+//  }
+//
+//}
