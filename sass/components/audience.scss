@@ -64,5 +64,33 @@
     margin: 0;
     background: url('../img/css_sprites.png') -155px -10px;
   }
+}
 
+@media (max-width: 975px) {
+  .audience__left-block {
+    display: none;
+  }
+
+  .audience__container {
+    width: 100%;
+
+    & br {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 570px) {
+  .audience__header {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .audience__element {
+    padding: 0;
+
+    &:after {
+      display: none;
+    }
+  }
 }

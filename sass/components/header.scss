@@ -68,3 +68,10 @@
     }
   }
 }
+
+@media (max-width: 975px) {
+  .header{
+    padding: 0;
+    flex-direction: column;
+  }
+}

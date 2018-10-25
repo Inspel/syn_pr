@@ -144,3 +144,34 @@
   text-transform: uppercase;
   vertical-align: top;
 }
+
+@media (max-width: 975px) {
+  .program__header:before, .program__header:after, .program__footer:after {
+    display: none;
+  }
+
+  .program__footer {
+    padding: 0;
+    min-height: 170px;
+    height: 171px;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .program__button {
+    margin-right: 0;
+    margin-bottom: 20px;
+    max-width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .program__element {
+    min-width: 100%;
+
+    & br {
+      display: none;
+    }
+  }
+}

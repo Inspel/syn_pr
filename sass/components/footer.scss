@@ -19,3 +19,10 @@
 .footer__policy {
   color: white;
 }
+
+@media (max-width: 975px) {
+  .footer__container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

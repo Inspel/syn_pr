@@ -24,3 +24,11 @@
   cursor: pointer;
   background: url("../img/video-link.png") no-repeat 0 0;
 }
+
+@media (max-width: 975px) {
+  .intro__header {
+    align-self: center;
+    font-size: 65px;
+    line-height: 60px;
+  }
+}

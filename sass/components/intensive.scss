@@ -129,3 +129,43 @@
   color: $color-main;
   text-decoration: none;
 }
+
+@media (max-width: 1200px) {
+  .intensive:after, .intensive:before, .intensive__image-wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 975px) {
+
+  .intensive__inner-wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .intensive__dates-list {
+    flex-direction: column;
+  }
+
+  .intensive__info {
+    flex-direction: column;
+  }
+
+  .intensive__button {
+    margin-right: 0;
+    margin-bottom: 20px;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 570px) {
+  .intensive__button {
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .intensive__info-text {
+    width: auto;
+  }
+}
